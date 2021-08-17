@@ -9,7 +9,7 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Rob Brunett",
 };
 const background = {
   // Options: Snow or Particle
@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "Product manager with a diverse product history. Experience includes Director, Product Management for Snap One, where I currently manage the SunBrite Outdoor TV business unit. A customer centric viewpoint helps me to discover, develop, and deploy revenue driving products that enrich users lives.  Additionally, I am earning a certificate in full stack development from UNC Chapel Hill, where I am developing skills in HTML, CSS, JavaScript, jQuery, Bootstrap, APIs,React.js, agile frameworks, and scrum methodologies. Excited to combine 8 years of Product Management experience with new technical skills to drive successful outcomes for a diverse and passionate team.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma

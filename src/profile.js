@@ -21,7 +21,8 @@ const section2title = "About Me";
 const about = {
   paragraph:
     "Product manager with a diverse product history. Experience includes Director, Product Management for Snap One, where I currently manage the SunBrite Outdoor TV business unit. A customer centric viewpoint helps me to discover, develop, and deploy revenue driving products that enrich users lives.  Additionally, I am earning a certificate in full stack development from UNC Chapel Hill, where I am developing skills in HTML, CSS, JavaScript, jQuery, Bootstrap, APIs,React.js, agile frameworks, and scrum methodologies. Excited to combine 8 years of Product Management experience with new technical skills to drive successful outcomes for a diverse and passionate team.",
-};
+  id: "Photo"
+  };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
@@ -70,50 +71,36 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
+    name: "Adventure Finder",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://naomi969.github.io/kayak-launch/",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Secure Password Generator",
+    skills: ["JS"],
+    url: "https://brunett82.github.io/Password_Generator/",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
+    name: "Code Quiz",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://brunett82.github.io/code_quiz/",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project5
-    id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project6
-    id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Weather Dashboard",
+    skills: ["JS, JQuery, Moment"],
+    url: "https://brunett82.github.io/weather_dashboard/",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+/*const section4Title = "Miscellaneous";
 const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
@@ -133,26 +120,24 @@ const miscellaneous = [
     name: "Miscellaneous 3",
     url: "https://github.com/kaustubhai",
   },
-];
+];*/
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch";
 const contact = {
-  pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
   copyright: "Kaustubh Mishra",
-  contactUrl: "",
+  contactUrl: "https://formspree.io/f/mqkwgdyg",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
+  github: "https://github.com/brunett82",
+  //facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  resume: "https://novoresume.com/",
+  //instagram: "https://instagram.com",
+  linkedin: "https://www.linkedin.com/in/rob-brunett-mba-b745b2a/",
+  //resume: "https://novoresume.com/",
 };
 // Dont change anything here
 export {
@@ -162,11 +147,11 @@ export {
   about,
   skillsBar,
   projects,
-  miscellaneous,
+  //miscellaneous,
   contact,
   social,
   section2title,
   section3Title,
-  section4Title,
+ // section4Title,
   section5Title,
 };

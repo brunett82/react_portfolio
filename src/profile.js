@@ -137,7 +137,7 @@ const social = {
   // twitter: "https://twitter.com",
   //instagram: "https://instagram.com",
   linkedin: "https://www.linkedin.com/in/rob-brunett-mba-b745b2a/",
-  resume: "/Users/rb3/Desktop/Bootcamp/react_portfolio/src/styles/images/Brunett Rob - Resume.pages",
+  resume: "./images/Brunett Rob - Resume.pdf",
 };
 // Dont change anything here
 export {
